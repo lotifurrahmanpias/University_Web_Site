@@ -1,0 +1,43 @@
+
+
+  .dropdown .dropbtn {
+    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 7px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(48, 4, 243);
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(134, 18, 18);
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(70, 67, 67);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
